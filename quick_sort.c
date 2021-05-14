@@ -1,5 +1,9 @@
 #include "stdio.h"
+/*
+快速排序
+    如果参考值在前面，则必须先从后面查找
 
+*/
 void swap(int *a, int *b)
 {
     int temp = *a;
